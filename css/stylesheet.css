@@ -22,9 +22,8 @@ body {
 
 /* Header */
 header {
-    background-color: #D2B48C;
     height: 150px;
-    background: url("../img/javajamlogo.jpg") no-repeat;
+    background: url("../img/javajamlogo.jpg") no-repeat #D2B48C;
 }
 
 h1 {
