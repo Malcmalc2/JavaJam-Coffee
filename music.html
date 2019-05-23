@@ -3,7 +3,10 @@
 <head>
     <link rel="stylesheet" href="./css/stylesheet.css">
     <link rel="icon" href="./img/favicon.ico" type="image/x-icon"/>
-    <title>JavaJam Coffee House Music</title>
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+    <title>JavaJam Coffee House Menu</title>
 </head>
 <body>
     <div id="wrapper">
@@ -14,28 +17,29 @@
 
         <!-- Navigation-->
         <nav>
-            <a href="./index.html">Home</a>&nbsp; &nbsp;
-            <a href="./menu.html">Menu</a>&nbsp; &nbsp;
-            <a href="./music.html">Music</a>&nbsp; &nbsp;
-            <a href="./jobs.html">Jobs</a>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./menu.html">Menu</a></li>
+                <li><a href="./music.html">Music</a></li>
+                <li><a href="./jobs.html">Jobs</a></li>
+            </ul>
         </nav>
 
         <!--Content-->
         <main>
-            <img src="./img/mugs.jpg" alt="mugs" width="400" height="299" align="right">
-            <h2>Coffee at JavaJam</h2>
-            <p>Indulge in our locally roasted free-trade coffee and enjoy the aroma, the smooth taste, the caffeine! Join our Mug Club and get a 10% discount on each cup of coffee you purchase - ask the barista for details.</p>
-            <dl>
-                <dt><strong>Just Java</strong></dt>
-                <dd>Regular house blend, decaffeinated cofee, or flavor of the day.<br>
-                    Endless Cup $2.00</dd>
-                <dt><strong>Care au Lait</strong></dt>
-                <dd>House blended cofee infused into a smooth, steamed milk.<br>
-                Single $2.00 Double $3.00</dd>
-                <dt><strong>Iced Cappuccino</strong></dt>
-                <dd>Sweetened espresso blended with icy-cold milk and served in a chillded glass.<br>
-                Single $4.75 Double $5.75</dd>
-            </dl>
+            <div id="heroguitar"></div>
+            <h2>Music at JavaJam</h2>
+            <p>The first Friday night each month at JavaJam is a special night. Join us from 8 pm to 11 pm for some music you won't want to miss!</p>
+            <h4>January</h4>
+            <div class="details">
+                <img class="floatleft" src="./img/melaniethumb.jpg" alt="Melanie" width="80" height="80">
+                Melanie Morris entertains with her melodic folk style.
+            </div>
+
+            <h4>February</h4>
+            <div class="details">
+                <img class="floatleft" src="./img/gregthumb.jpg" alt="Melanie" width="80" height="80">
+                Tahoe Greg is back from his tour. New songs. New stories.
         </main>
 
         <!-- Footer -->
