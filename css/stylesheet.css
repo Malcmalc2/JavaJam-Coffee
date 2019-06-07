@@ -9,6 +9,21 @@ body {
     background-image: url("../img/background.gif");
 }
 
+table {
+    width: 90%;
+    margin: auto;
+    border-spacing: 0;
+    background-color: #ffffcc;
+}
+
+td, th {
+    padding: 10px;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #D2B48C;
+}
+
 /* Header */
 header {
     height: 149px;
@@ -70,6 +85,7 @@ main {
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
+    padding-bottom: 30px; 
     display: block; 
     margin-left: 200px;
 }
