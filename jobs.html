@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaJam Coffee House :: Jobs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon"/>
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div id="wrapper">
+        <!--Header-->
+        <header>
+            <h1>JavaJam Coffee House</h1>
+        </header>
+
+        <!-- Navigation-->
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./menu.html">Menu</a></li>
+                <li><a href="./music.html">Music</a></li>
+                <li><a href="./jobs.html">Jobs</a></li>
+            </ul>
+        </nav>
+
+        <!--Content-->
+        <main>
+            <h2>Jobs at JavaJam</h2>
+            <p>Want to work at JavaJam? Fill out the form below to start your application.<br> Required fields are marked with an asterisk(*)</p>
+            <form method="POST" action="http://webdevbasics.net/scripts/javajam8.php">
+              <label for="myName">* Name:</label>
+              <input type="text" name="myName" required>
+
+              <label for="myEmail">* E-mail:</label>
+              <input type="email" name="myEmail" required>
+
+              <label for="myExperience">* Experience:</label>
+              <textarea name="myExperience" cols="25" rows="3" required></textarea>
+
+              <input type="submit" value="Apply Now" id="mySubmit">
+            </form>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            Copyright &copy; 2016 JavaJam Cofee House<br>
+            <a href="mailto:itcurtis@hotmail.com">Malcolm@Curtis.com</a>
+        </footer>
+    </div>
+</body>
+</html>
